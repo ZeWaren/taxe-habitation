@@ -58,11 +58,7 @@ int th_7kdec(s_e5 * p_e5, s_s5 * p_s5)
     static s_dns dns_glob;
     static s_dne dne_glob;
 
-    s_dne *p_dne;
     s_dns *p_ds5;
-    s_dns *p_dns;
-    p_dne=&dne_glob;
-    p_dns=&dns_glob;
     p_ds5=&(p_s5->dns_5);
 
     p_ds5->signature = &la_signature ;
