@@ -23,8 +23,6 @@
 /* simulation de l'abattement special à la base                               */
 /*============================================================================*/
 
-#define LA_SIGNATURE
-
 #if defined (ILIAD)
     #include <th-7ksts.h>
     #include <th-7kfos.h>

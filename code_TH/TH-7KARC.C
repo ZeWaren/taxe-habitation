@@ -22,9 +22,11 @@
 #if defined ILIAD
     #include <th-7ksts.h>
     #include <th-7kfos.h>
+    #include <signature.h>
 #else
     #include "th-7ksts"
     #include "th-7kfos"
+    #include "signature.h"
 #endif
 
 /* #include  <stdlib.h> */

@@ -22,7 +22,6 @@
     /* MODULE DE CALCUL DEG/PLAF DES DEPENDANCES */
     /*===========================================*/
 
-#define LA_SIGNATURE
 #if defined (ILIAD)
     #include <th-7ksts.h>
     #include <th-7kfos.h>

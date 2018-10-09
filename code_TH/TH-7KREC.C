@@ -22,7 +22,6 @@
 /* MODULE D ACTUALISATION DES */
 /*      VALEURS LOCATIVES     */
 /*============================*/
-#define LA_SIGNATURE
 
 #if defined (ILIAD)
     #include <th-7ksts.h>

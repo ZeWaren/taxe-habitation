@@ -21,8 +21,6 @@
 /*=================================
               MODULE GENERAL DE CALCUL DE LA th-7KCAC
              =================================== */
-#define LA_SIGNATURE
-
 #if defined (ILIAD)
     #include <th-7ksts.h>
     #include <th-7kfos.h>

@@ -23,7 +23,6 @@
     /*       programme th-7KDNC.C       */
     /*==================================*/
 
-#define LA_SIGNATURE
 #if defined (ILIAD)
     #include <th-7ksts.h>
     #include <th-7kfos.h>

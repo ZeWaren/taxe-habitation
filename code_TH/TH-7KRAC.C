@@ -18,13 +18,14 @@
 #**************************************************************************************************************************
 */
 
-#define LA_SIGNATURE
 #if defined (ILIAD)
     #include <th-7ksts.h>
     #include <th-7kfos.h>
+    #include <signature.h>
 #else
     #include "th-7ksts"
     #include "th-7kfos"
+    #include "signature.h"
 #endif
 
 /*-------------------------------------*/
@@ -39,7 +40,6 @@ int controle_krac (s_rae * p_rae) ;
   ============================================================================*/
 int th_7krac ( s_rae * p_rae, s_ras * p_ras)
 {
-    extern s_signature la_signature ;
     int rets;                 /*code retour signature*/
     int ret;                  /*code retour contrôle_krac*/
     int ret_const;
