@@ -1,3 +1,5 @@
+#ifndef SEPT_KTOS_H
+#define SEPT_KTOS_H
 /* 
 #*************************************************************************************************************************
 #
@@ -552,3 +554,4 @@ typedef struct {
                  }
            s_e9         ;
 /*- fin de e9           :entree donnees collectives act reval--*/
+#endif
